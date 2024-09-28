@@ -152,7 +152,7 @@ const ImageGenerator = () => {
         <h2 className="text-xl font-bold mb-4 text-gray-700">History</h2>
         <div className="space-y-4">
           {history.length === 0 ? (
-            <p className="text-gray-500">No history yet.</p>
+            <p className="text-gray-500">No history yet</p>
           ) : (
             history.map((item, index) => (
               <div
